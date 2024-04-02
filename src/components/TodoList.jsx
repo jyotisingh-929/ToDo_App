@@ -12,7 +12,7 @@ const TodoList = ({ todos, handleCompleteTodo, handleDeleteTodo, handleEditTodo 
                             type="checkbox"
                             checked={todo.completed}
                             onChange={() => handleCompleteTodo(todo.id)}
-                            className="mr-2"
+                            className="mr-2 cursor-pointer"
                         />
                         <p className='text-ellipsis overflow-hidden'>{todo.title}</p>
                     </div>
